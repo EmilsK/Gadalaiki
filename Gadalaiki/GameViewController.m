@@ -37,11 +37,11 @@
     self.gamePieces = [[NSMutableArray alloc] init];
     self.imageNames = [self.levelInfo objectForKey:@"Images"];
     if (self.l==4) {
-        self.lastPosition = CGPointMake(115, 661);
+        self.lastPosition = CGPointMake(115, 671);
         [self animationStartDelay];
     }
     else {
-    self.lastPosition = CGPointMake(140, 661); // sākuma pozīcija bilžu rādīšanai
+    self.lastPosition = CGPointMake(140, 671); // sākuma pozīcija bilžu rādīšanai
     [self animationStartDelay];
     }
      // izsauc funkciju kas aiztur kāršu rādīšanos, kamēr ekrāns ielādējas
