@@ -15,17 +15,13 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="sakums.png" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="sakums.png" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="0.0" y="0.0" width="1046" height="791"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16">
                     <rect key="frame" x="0.0" y="704" width="149" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="149" id="19"/>
-                        <constraint firstAttribute="height" constant="44" id="21"/>
-                    </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                     <state key="normal" title="Atpakaļ">
                         <color key="titleColor" red="0.5647059083" green="0.1098039299" blue="0.1294117719" alpha="1" colorSpace="deviceRGB"/>
@@ -38,14 +34,10 @@
                         <action selector="back:" destination="-1" eventType="touchUpInside" id="23"/>
                     </connections>
                 </button>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43">
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43">
                     <rect key="frame" x="238" y="46" width="549" height="635"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.81895727039999999" green="0.67781290630000002" blue="0.072315251179999998" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="549" id="57"/>
-                        <constraint firstAttribute="height" constant="635" id="70"/>
-                    </constraints>
                     <attributedString key="attributedText">
                         <fragment>
                             <string key="content">Interaktīvā spēle „GADALAIKI”
@@ -69,14 +61,6 @@ veikts pareizi, pieskarieties ikonai „Pārbaudīt”. Ja augšējā joslā par
                 </textView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="7" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="12"/>
-                <constraint firstItem="7" firstAttribute="top" secondItem="2" secondAttribute="top" id="14"/>
-                <constraint firstAttribute="bottom" secondItem="16" secondAttribute="bottom" constant="20" symbolic="YES" id="17"/>
-                <constraint firstItem="16" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="22"/>
-                <constraint firstItem="43" firstAttribute="centerX" secondItem="7" secondAttribute="centerX" id="61"/>
-                <constraint firstItem="43" firstAttribute="top" secondItem="2" secondAttribute="top" constant="46" id="69"/>
-            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
